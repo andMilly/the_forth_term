@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="z.css">
+    <title>作业</title>
+</head>
+<body>
+
+    <div id="req">
+        <p>1、什么是HTML与CSS？它们是用来干什么的？理解HTML和CSS的语法结构</p>
+        <p>html:超文本标记语言，标准通用标记语言下的一个应用。是网页制作必备的编程语言<br>
+            “超文本”就是指页面内可以包含图片、链接，甚至音乐、程序等非文字元素。<br>
+            超文本标记语言的结构包括“头”部分（head）、和“主体”部分（Body），其中“头”部提供关于网页的信息，“主体”部分提供网页的具体内容。<br>
+            css:层叠样式表(英文全称：Cascading Style Sheets)是一种用来表现HTML（标准通用标记语言的一个应用）或XML（标准通用标记语言的一个子集）等文件样式的计算机语言。<br>CSS不仅可以静态地修饰网页，还可以配合各种脚本语言动态地对网页各元素进行格式化。</p>
+        <p>2、至少用两种以上的方式，使用CSS让一个div居中（在Body中居中、父子居中）</p>
+        <div id="csscenter1"><div id="csscenter2"><center>居中</center></div></div>
+        <p>3、假设有三个div,分别用 浮动布局和 弹性布局，实现 水平居中和 等距分布</p>
+        <div id="floz">^_^<br>浮动</div>
+        <div class="wrap"><div id="flez">@_@<br>弹性</div></div>
+        <div id="floatd"><div class="flo" id="obox"></div><div class="flo"><center>浮动等距分布</center></div><div class="flo"></div></div>
+        <div id="flexd"><div class="fle"></div><div class="fle"><center>弹性等距分布</center></div><div class="fle"></div></div>
+        <p>4、什么是DIV的相对布局和绝对布局? <br>理解 box模型 的 position:relative|相对定位 和 position:absolute|绝对定位，并分别用例子实现。</p>
+        <div id="rel"><center>position：relative（相对布局）<br>设置为相对定位的元素框会偏移某个距离。元素仍然保持其未定位前的形状，它原本所占的空间仍保留。<br>position：absolute（绝对布局）<br>脱离文本流，相对于最近元素定位，不占空间(见下面透明条）</center></div>
+        <div id="ads"></div>
+        <p>5、css中 div 与span有什么区别？ 举例说明</p>
+        <div  id="difd">div:块状元素，可以设置多种css样式<br>水调歌头·明月几时有<br>
+            宋代：苏轼<br>
+            
+            丙辰中秋，欢饮达旦，大醉，作此篇，兼怀子由。<br>
+            
+            明月几时有？把酒问青天。不知天上宫阙，今夕是何年。我欲乘风归去，又恐琼楼玉宇，高处不胜寒。起舞弄清影，何似在人间？
+            转朱阁，低绮户，照无眠。不应有恨，何事长向别时圆？人有悲欢离合，月有阴晴圆缺，此事古难全。但愿人长久，千里共婵娟。</div>
+        <span id="difs">span:行内元素，不能设置宽度高度等css样式<br>水调歌头·明月几时有<br>
+            宋代：苏轼<br>
+            
+            丙辰中秋，欢饮达旦，大醉，作此篇，兼怀子由。<br>
+            
+            明月几时有？把酒问青天。不知天上宫阙，今夕是何年。我欲乘风归去，又恐琼楼玉宇，高处不胜寒。起舞弄清影，何似在人间？
+            转朱阁，低绮户，照无眠。不应有恨，何事长向别时圆？人有悲欢离合，月有阴晴圆缺，此事古难全。但愿人长久，千里共婵娟。</span>
+        <p>6、用z-index实现多层div</p>
+        <center>
+        <div class="boxs" id="ba"></div>
+        <div class="boxs" id="bb"></div>
+        <div class="boxs" id="bc"></div>
+        <div class="boxs" id="bd"></div>
+        <div class="boxs" id="be"></div>
+        </center>
+    </div>
+
+</body>
+</html>
