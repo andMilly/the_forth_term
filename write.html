@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blogger——writing</title>
+    <link rel="stylesheet" href="bg.css">
+    <link rel="stylesheet" href="write.css">
+    <script type="text/javascript" src="tinymce_5.0.5_dev\tinymce\js\tinymce\tinymce.min.js"></script>
+    <script type="text/javascript">
+        tinymce.init({
+            selector: "#mytextarea"
+        });
+    </script>
+</head>
+<body>
+    <div class="bg">
+        <img src="pic/左上.png">
+        <p class="tip">写博客</p>
+        <form>
+        <div class="top">
+            <div class="left">
+                <p class="h">标题：</p>
+                <input type="text">
+            </div>
+            <div class="right">
+                <p class="h">时间：</p>
+                <div></div>
+            </div>
+        </div>
+        <div class="main">
+            <textarea id="mytextarea"></textarea><br>
+            <!-- <textarea class="te"></textarea> -->
+        </div>
+        <div class="bottom">
+            <<p>分类:</p>>
+            <select>
+            </select>
+            <p>标签：</p>
+            <input type="text">
+            <p>权限：</p>
+            <input type="radio">
+            <input type="button">
+        </div>
+    </div>
+    </form>
+</body>
+</html>
