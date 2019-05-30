@@ -4,24 +4,52 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="main.css">
     <title></title>
+    <script src="https://cdn.jsdelivr.net/npm/bluebird@3/js/browser/bluebird.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/whatwg-fetch@2.0.3/fetch.min.js"></script>
+    <script>
+            fetch('https://v1.hitokoto.cn')
+              .then(function (res){
+                return res.json();
+              })
+              .then(function (data) {
+                var hitokoto = document.getElementById('hitokoto');
+                hitokoto.innerText = data.hitokoto; 
+              })
+              .catch(function (err) {
+                console.error(err);
+              })
+          </script>
 </head>
 <body>
     <div class="top"></div>
     <div class="left">
-        <div class="part"></div>
-        <div class="part"></div>
-        <div class="part"></div>
-        <div class="part"></div>
-        <div class="part"></div>
+        <div class="part" onclick=""><a>专区1</a></div>
+        <div class="part" onclick="">专区2</div>
+        <div class="part" onclick="">专区3</div>
+        <div class="part" onclick="">专区4</div>
+        <div class="part" onclick="">专区5</div>
+        <div class="part" onclick="">专区6</div>
+        <div class="part" onclick="">专区7</div>
+        <div class="part" onclick="">专区8</div>
     </div>
     <div class="middle">
-        <div class="box"><img src="https://uploadbeta.com/api/pictures/random/">
-            <script type="text/javascript" src="https://andMilly.github.io/the_forth_term/hitokoto/?format=js&charset=utf-8"></script>
-            <p id="hitokoto" style="font-size: 16px;text-align: center"><script>hitokoto()</script></p>
+        <div class="box">
+            <img src="https://uploadbeta.com/api/pictures/random/">
+            <p id="hitokoto" style="font-size: 16px;text-align: center">:D 获取中...</p>
+        </div>
+        <div class="bloggers">
+            <div class="blogger" id="blogger1">
+                <div class="bloggerbottom">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="right"> 
-
     </div>
+    <script src="">
+    </script>
 </body>
 </html>

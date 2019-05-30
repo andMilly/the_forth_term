@@ -2,20 +2,21 @@
     background-color: rgba(0,0,0,0.03);
 }
 body div{
-    padding:0;margin:0;float: left;margin-top: 45px;border-radius: 2px;box-shadow: 3px 3px 12px rgba(0,0,0,0.01);border:1px solid rgba(0,0,0,0.04)
+    padding:0;margin:0;float: left;margin-top: 45px;border-radius: 2px;box-shadow: 3px 3px 12px rgba(0,0,0,0.01);border:1px solid rgba(0,0,0,0.04);background-color: rgb(255,255,255)
 }
 .top{
-    width:100%;height:45px;background-color: rgb(255,255,255);position: fixed;transform: translateX(-5px) translateY(-54px);box-shadow: 3px 3px 12px rgba(0,0,0,0.04);z-index: 1;border:none;border-bottom: 1px solid rgba(0,0,0,0.04)
+    width:100%;height:45px;position: fixed;transform: translateX(-5px) translateY(-54px);box-shadow: 3px 3px 12px rgba(0,0,0,0.04);z-index: 1;border:none;border-bottom: 1px solid rgba(0,0,0,0.04)
 }
 .left{
-    width:105px;height:560px;background-color: rgb(255, 255, 255);margin-left:55px;position: fixed;
+    width:105px;height:560px;margin-left:55px;position: fixed;
 }
 .middle{
-    width:700px;height:960px;margin-left:43px;background-color: rgb(255,255,255);transform: translateX(150px);
+    width:700px;height:auto;margin-left:43px;background-color:unset;transform: translateX(150px);border:none;
 }
 .right{
-    width:270px;height:960px;background-color: rgb(255,255,255);transform: translateX(170px)
+    width:270px;height:960px;transform: translateX(170px)
 }
+
 
 .box{
     width:100%;height:auto;border:1px solid rgba(0,0,0,0.05);box-shadow: 3px 3px 12px rgba(0,0,0,0.05);padding:0;margin:0
@@ -23,7 +24,16 @@ body div{
 .middle img{
     width:99.9%;height:auto;
 }
+.box p{padding:0 8px;}
+.bloggers{width:100%;height:auto;margin-top:10px;background-color: rgb(255,255,255);}
+.bloggers div{padding:0;margin:0;height:100px;width:100%;margin-bottom:30px;border:none;overflow: hidden}
+.bloggerbottom{width:100%;height:px;border:10px solid red;}
+.bloggerbottom div{width:30%;float:left;background-color: green;height:100%;}
 
+.left div{margin-top:2.5px;margin-bottom:2.5px}
+.left>div{margin-top:5px}
 .part{
-    width:100%;height:80px;margin-top: 0;margin-bottom: 20px;border:none;border-bottom:1px solid rgba(0,0,0,0.05);box-shadow: 3px 3px 12px rgba(0,0,0,0.05);
+    width:100%;height:40px;border:none;text-align: center;line-height:40px;font-size: 15px;color:rgba(0,0,0,0.7)
 }
+.part:hover{background-color:rgba(20, 129, 93, 0.7);color:rgb(255, 255, 255,1);text-shadow: 0.1px 0.1px 3px rgba(0,0,0,0.1);cursor: pointer;}
+
