@@ -1,0 +1,29 @@
+﻿body{
+    background-color: rgba(0,0,0,0.03);
+}
+body div{
+    padding:0;margin:0;float: left;margin-top: 45px;border-radius: 2px;box-shadow: 3px 3px 12px rgba(0,0,0,0.01);border:1px solid rgba(0,0,0,0.04)
+}
+.top{
+    width:100%;height:45px;background-color: rgb(255,255,255);position: fixed;transform: translateX(-5px) translateY(-54px);box-shadow: 3px 3px 12px rgba(0,0,0,0.04);z-index: 1;border:none;border-bottom: 1px solid rgba(0,0,0,0.04)
+}
+.left{
+    width:105px;height:560px;background-color: rgb(255, 255, 255);margin-left:55px;position: fixed;
+}
+.middle{
+    width:700px;height:960px;margin-left:43px;background-color: rgb(255,255,255);transform: translateX(150px);
+}
+.right{
+    width:270px;height:960px;background-color: rgb(255,255,255);transform: translateX(170px)
+}
+
+.box{
+    width:100%;height:auto;border:1px solid rgba(0,0,0,0.05);box-shadow: 3px 3px 12px rgba(0,0,0,0.05);padding:0;margin:0
+}
+.middle img{
+    width:99.9%;height:auto;
+}
+
+.part{
+    width:100%;height:80px;margin-top: 0;margin-bottom: 20px;border:none;border-bottom:1px solid rgba(0,0,0,0.05);box-shadow: 3px 3px 12px rgba(0,0,0,0.05);
+}
